@@ -2,6 +2,9 @@ import { Container } from "./styles";
 // import VinayakSingh from "../../assets/VinayakSingh.png";
 // import wordpress from "../../assets/wordpress.svg";
 // import shopify from "../../assets/shopify.svg";
+import pythonIcon from "../../assets/python-icon.svg";
+import pandaIcon from "../../assets/pandas-icon.svg";
+import linuxIcon from "../../assets/linux-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 // import jsIcon from "../../assets/js-icon.svg";
@@ -52,16 +55,16 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          {/* <div className="hability">
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
+              <img src={pythonIcon} alt="python" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
+              <img src={pandaIcon} alt="pandas" />
             </ScrollAnimation>
-          </div> */}
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
@@ -72,11 +75,11 @@ export function About() {
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
-          {/* <div className="hability">
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+              <img src={linuxIcon} alt="linux" />
             </ScrollAnimation>
-          </div> */}
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={nodeIcon} alt="Node" />
@@ -94,11 +97,11 @@ export function About() {
             </ScrollAnimation>
           </div>
 
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
