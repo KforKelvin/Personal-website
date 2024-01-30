@@ -92,7 +92,11 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={KG} alt="Kaiyuan Gao" />
+          <img
+            src={KG}
+            alt="Kaiyuan Gao"
+            style={{ width: "50%", height: "50%" }}
+          />
         </ScrollAnimation>
       </div>
     </Container>
