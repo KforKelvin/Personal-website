@@ -1,17 +1,16 @@
 import { Container } from "./styles";
-// import VinayakSingh from "../../assets/VinayakSingh.png";
-// import wordpress from "../../assets/wordpress.svg";
-// import shopify from "../../assets/shopify.svg";
 import pythonIcon from "../../assets/python-icon.svg";
 import pandaIcon from "../../assets/pandas-icon.svg";
 import linuxIcon from "../../assets/linux-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-// import jsIcon from "../../assets/js-icon.svg";
+// import KG from "../../assets/prof";
+import KG from "../../assets/KG.jpg";
+
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-// import vueIcon from "../../assets/vue-icon.svg";
+
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -39,14 +38,7 @@ export function About() {
           animateIn="fadeInLeft"
           delay={0.2 * 1000}
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
-        >
-          {/* <p>
-            But my services go beyond just custom development - I'm also
-            proficient in using CMS systems like WordPress and Shopify, making
-            it easy for my clients to take control of their own websites and
-            keep them up to date.
-          </p> */}
-        </ScrollAnimation>
+        ></ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>Currently looking for a Intern position as a software engineer.</p>
         </ScrollAnimation>
@@ -96,22 +88,11 @@ export function About() {
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
-
-          {/* <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
-          </div> */}
-          {/* <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
-            </ScrollAnimation>
-          </div> */}
         </div>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          {/* <img src={VinayakSingh} alt="Kaiyuan Gao" /> */}
+          <img src={KG} alt="Kaiyuan Gao" />
         </ScrollAnimation>
       </div>
     </Container>
