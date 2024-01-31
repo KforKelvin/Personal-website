@@ -2,6 +2,8 @@
 
 This is the CSCE 656 website of Kaiyuan (Kai) Gao.
 
+Access via: https://kforkelvin.github.io/Personal-website/
+
 ## Built With:
 
 - React
