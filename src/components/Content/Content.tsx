@@ -44,7 +44,7 @@ export function Content() {
             with three other roommates, and the internet bandwith is not enough
             for all of us. Sometimes, when I am playing a game, my ping would
             spike up to 2000ms, and I would get disconnected from the game. It
-            is very frustrating.{" "}
+            is very frustrating.
           </p>
         </ScrollAnimation>
       </div>
