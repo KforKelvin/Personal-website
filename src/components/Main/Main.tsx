@@ -5,6 +5,7 @@ import { About } from "../About/About";
 // import { Contact } from "../Contact/Contact";
 // import { Project } from "../Project/Project";
 import { Assignment1 } from "../Assignment1/Assignment1";
+import { Assignment2 } from "../Assignment2/Assignment2";
 
 // import wordpress from "../../assets/wordpress.svg";
 // import shopify from "../../assets/shopify.svg";
@@ -24,6 +25,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Assignment1></Assignment1>
+      <Assignment2></Assignment2>
       {/* <Project></Project> */}
       {/* <Contact></Contact> */}
     </Container>
