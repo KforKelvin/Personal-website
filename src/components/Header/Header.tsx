@@ -18,52 +18,52 @@ export function Header() {
 
   return (
     <Container className="header-fixed">
-      <Router>
-        <HashLink smooth to="#home" className="logo">
-          <span>{"<Kaiyuan "}</span>
-          <span>{" Gao/>"}</span>
-        </HashLink>
+      {/* <Router> */}
+      <HashLink smooth to="#home" className="logo">
+        <span>{"<Kaiyuan "}</span>
+        <span>{" Gao/>"}</span>
+      </HashLink>
 
-        <input
-          onChange={toggleTheme}
-          className="container_toggle"
-          type="checkbox"
-          id="switch"
-          name="mode"
-        />
-        <label htmlFor="switch">Toggle</label>
+      <input
+        onChange={toggleTheme}
+        className="container_toggle"
+        type="checkbox"
+        id="switch"
+        name="mode"
+      />
+      <label htmlFor="switch">Toggle</label>
 
-        <nav className={isActive ? "active" : ""}>
-          <NavHashLink smooth to="#home" onClick={closeMenu}>
-            Home
-          </NavHashLink>
-          <NavHashLink smooth to="#about" onClick={closeMenu}>
-            About me
-          </NavHashLink>
-          {/* <NavHashLink smooth to="#project" onClick={closeMenu}>
+      <nav className={isActive ? "active" : ""}>
+        <NavHashLink smooth to="/" onClick={closeMenu}>
+          Home
+        </NavHashLink>
+        {/* <NavHashLink smooth to="#about" onClick={closeMenu}>
+          About me
+        </NavHashLink> */}
+        {/* <NavHashLink smooth to="#project" onClick={closeMenu}>
             Project
           </NavHashLink> */}
-          <NavHashLink smooth to="#assignment1" onClick={closeMenu}>
-            Assignment #1
-          </NavHashLink>
-          <NavHashLink smooth to="#assignment2" onClick={closeMenu}>
-            Assignment #2
-          </NavHashLink>
-          <a href={CV} download className="button">
-            CV
-          </a>
-        </nav>
+        <NavHashLink smooth to="/assignment1" onClick={closeMenu}>
+          Assignment #1
+        </NavHashLink>
+        <NavHashLink smooth to="/assignment2" onClick={closeMenu}>
+          Assignment #2
+        </NavHashLink>
+        <a href={CV} download className="button">
+          CV
+        </a>
+      </nav>
 
-        <div
-          aria-expanded={isActive ? "true" : "false"}
-          aria-haspopup="true"
-          aria-label={isActive ? "Fechar menu" : "Abrir menu"}
-          className={isActive ? "menu active" : "menu"}
-          onClick={() => {
-            setActive(!isActive);
-          }}
-        ></div>
-      </Router>
+      <div
+        aria-expanded={isActive ? "true" : "false"}
+        aria-haspopup="true"
+        aria-label={isActive ? "Fechar menu" : "Abrir menu"}
+        className={isActive ? "menu active" : "menu"}
+        onClick={() => {
+          setActive(!isActive);
+        }}
+      ></div>
+      {/* </Router> */}
     </Container>
   );
 }
