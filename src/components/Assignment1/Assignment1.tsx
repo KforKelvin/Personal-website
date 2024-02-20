@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 
-export function Content() {
+export function Assignment1() {
   return (
-    <Container id="content">
+    <Container id="assignment1">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>Assignment #1</h2>
