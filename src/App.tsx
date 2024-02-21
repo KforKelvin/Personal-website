@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "./components/Main/styles";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
@@ -29,31 +30,31 @@ function App() {
         <Route
           path="/"
           element={
-            <>
+            <Container>
               <Header />
               <About />
               <Footer />
-            </>
+            </Container>
           }
         />
         <Route
           path="/assignment1"
           element={
-            <>
+            <Container>
               <Header />
               <Assignment1 />
               <Footer />
-            </>
+            </Container>
           }
         />
         <Route
           path="/assignment2"
           element={
-            <>
+            <Container>
               <Header />
               <Assignment2 />
               <Footer />
-            </>
+            </Container>
           }
         />
       </Routes>
