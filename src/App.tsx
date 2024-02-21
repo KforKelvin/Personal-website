@@ -12,17 +12,6 @@ import { Assignment2 } from "./components/Assignment2/Assignment2";
 import "react-toastify/dist/ReactToastify.css";
 import { Assignment1 } from "./components/Assignment1/Assignment1";
 function App() {
-  // return (
-  //   <>
-  //     <GlobalStyle></GlobalStyle>
-  //     <Header></Header>
-  //     <Main></Main>
-  //     <Footer></Footer>
-  //   </>
-  //   // <>
-  //   // <Assignment2></Assignment2>
-  //   // </>
-  // );
   return (
     <Router>
       <GlobalStyle />
