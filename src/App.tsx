@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { About } from "./components/About/About";
-// import { Hero } from "./components/Hero/Hero";
+import { Hero } from "./components/Hero/Hero";
 // import { Main } from "./components/Main/Main";
 import { GlobalStyle } from "./styles/global";
 import { Assignment2 } from "./components/Assignment2/Assignment2";
@@ -32,6 +32,7 @@ function App() {
           element={
             <Container>
               <Header />
+              <Hero />
               <About />
               <Footer />
             </Container>
